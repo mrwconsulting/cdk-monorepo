@@ -1,6 +1,7 @@
 {
   "name": "helloworld",
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "license": "ISC",
   "bin": {
     "helloworld": "bin/helloworld.js"
   },
