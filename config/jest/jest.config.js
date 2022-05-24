@@ -5,6 +5,6 @@ module.exports = {
   roots: ['../../packages'],
   testMatch: ['**/*.test.ts'],
   transform: {
-    '^.+\\.tsx?$': 'ts-jest'
-  }
-};
+    '^.+\\.tsx?$': 'ts-jest',
+  },
+}

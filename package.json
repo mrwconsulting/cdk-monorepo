@@ -16,6 +16,7 @@
   },
   "scripts": {
     "cdk:build": "lerna run build --stream",
+    "cdk:deploy": "lerna run deploy --stream",
     "cdk:synth": "lerna run synth --stream",
     "clean": "lerna run clean --stream",
     "lint": "eslint . --config config/lint/.eslintrc.js --no-error-on-unmatched-pattern --ext .ts,.tsx",
