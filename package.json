@@ -24,6 +24,7 @@
     "cdk:deploy": "lerna run deploy --stream",
     "cdk:synth": "lerna run synth --stream",
     "clean": "lerna run clean --stream",
+    "commit": "cz",
     "lint": "eslint . --config config/lint/.eslintrc.js --no-error-on-unmatched-pattern --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix && npm run -- prettier",
     "prettier": "prettier --config config/prettier/.prettierrc --write .",
