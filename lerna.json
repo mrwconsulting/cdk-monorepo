@@ -1,6 +1,21 @@
 {
   "version": "0.0.0",
   "npmClient": "yarn",
+  "npmClientArgs": ["--no-lockfile"],
   "useWorkspaces": true,
-  "packages": ["packages/cdk/*", "packages/lambda/*", "packages/examples/*"]
+  "packages": [
+    "packages/cdk/*",
+    "packages/lambda/*",
+    "packages/examples/*"
+  ],
+  "command": {
+    "version": {
+       "ignoreChanges": ["*.md"],
+       "npmClient": "npm",
+       "message": "chore(release): publish"
+    },
+    "publish": {
+       "npmClient": "npm"
+    }
+ }
 }

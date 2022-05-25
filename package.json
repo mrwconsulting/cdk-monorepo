@@ -23,7 +23,7 @@
     "lint:fix": "npm run lint -- --fix && npm run -- prettier",
     "prettier": "prettier --config config/prettier/.prettierrc --write .",
     "test": "yarn jest --config config/jest/jest.config.js",
-    "version:beta": "lerna version --yes --preid beta --conventional-commits --conventional-prerelease",
+    "version:beta": "lerna version --yes --preid beta --no-changelog --conventional-commits --conventional-prerelease",
     "version:release": "lerna version --yes --conventional-commits --conventional-graduate",
     "postversion": "yarn cdk:build"
   },
