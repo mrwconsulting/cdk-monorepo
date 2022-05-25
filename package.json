@@ -15,14 +15,17 @@
     ]
   },
   "scripts": {
-    "cdk:build": "lerna run build --stream",
+    "cdk:build": "lerna run build --concurrency 1 --include-dependencies --stream",
     "cdk:deploy": "lerna run deploy --stream",
     "cdk:synth": "lerna run synth --stream",
     "clean": "lerna run clean --stream",
     "lint": "eslint . --config config/lint/.eslintrc.js --no-error-on-unmatched-pattern --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix && npm run -- prettier",
     "prettier": "prettier --config config/prettier/.prettierrc --write .",
-    "test": "yarn jest --config config/jest/jest.config.js"
+    "test": "yarn jest --config config/jest/jest.config.js",
+    "version:beta": "lerna version --yes --preid beta --conventional-commits --conventional-prerelease",
+    "version:release": "lerna version --yes --conventional-commits --conventional-graduate",
+    "postversion": "yarn cdk:build"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.0",
