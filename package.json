@@ -14,6 +14,11 @@
       "@commitlint/config-conventional"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "scripts": {
     "cdk:build": "lerna run build --concurrency 1 --include-dependencies --stream",
     "cdk:deploy": "lerna run deploy --stream",
@@ -35,7 +40,9 @@
     "@typescript-eslint/eslint-plugin": "5.26.0",
     "@typescript-eslint/parser": "5.26.0",
     "aws-cdk-lib": "2.25.0",
+    "commitizen": "4.2.4",
     "constructs": "10.1.16",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "8.16.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",
