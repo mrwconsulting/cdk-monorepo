@@ -1,5 +1,6 @@
 *.lock
 node_modules
+*.log
 *.lock
 *-lock.json
 packages/**/cdk.out
