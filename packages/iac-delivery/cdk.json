@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/iac-deploy.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/iac-delivery.ts",
   "watch": {
     "include": [
       "**"

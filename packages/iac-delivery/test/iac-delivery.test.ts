@@ -1,17 +1,17 @@
 import * as cdk from "aws-cdk-lib";
 import { Template } from "aws-cdk-lib/assertions";
-import { IacDeploy } from "../lib/iac-deploy";
+import { IacDelivery } from "../lib/iac-delivery";
 
-describe("IACDeploy", () => {
-  test("IAC Test Stack", () => {
+describe("IACDelivery", () => {
+  test("IACDelivery Test Stack", () => {
     const app = new cdk.App();
-    const stack = new cdk.Stack(app, "IACTestStack", {
+    const stack = new cdk.Stack(app, "IACDeliveryStack", {
       env: {
         account: process.env.CDK_DEFAULT_ACCOUNT,
         region: process.env.CDK_DEFAULT_REGION,
       },
     });
-    new IacDeploy(stack, "IacDeployStack");
+    new IacDelivery(stack, "IacDelivery");
     const template = Template.fromStack(stack);
     expect(template).toMatchSnapshot();
   });

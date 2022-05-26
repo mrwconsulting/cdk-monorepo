@@ -1,9 +1,9 @@
 {
-  "name": "iac-deploy",
+  "name": "iac-delivery",
   "version": "0.0.0",
   "license": "ISC",
   "bin": {
-    "iac-deploy": "bin/iac-deploy.js"
+    "iac-delivery": "bin/iac-delivery.js"
   },
   "scripts": {
     "build": "tsc",
