@@ -1,0 +1,29 @@
+{
+  "name": "iac-deploy",
+  "version": "0.0.0",
+  "license": "ISC",
+  "bin": {
+    "iac-deployer": "bin/iac-deploy.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf */*.js cdk.out node_modules",
+    "deploy": "cdk deploy",
+    "synth": "cdk synth"
+  },
+  "devDependencies": {
+    "@types/jest": "27.5.1",
+    "@types/node": "10.17.27",
+    "@types/prettier": "2.6.0",
+    "jest": "27.5.1",
+    "ts-jest": "27.1.4",
+    "aws-cdk": "2.25.0",
+    "ts-node": "10.7.0",
+    "typescript": "3.9.7"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.25.0",
+    "constructs": "10.1.16",
+    "source-map-support": "0.5.21"
+  }
+}
