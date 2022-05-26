@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "ISC",
   "bin": {
-    "iac-deployer": "bin/iac-deploy.js"
+    "iac-deploy": "bin/iac-deploy.js"
   },
   "scripts": {
     "build": "tsc",
