@@ -1,2 +1,1 @@
-export interface DeployProps {
-}
+export interface DeployProps {}
