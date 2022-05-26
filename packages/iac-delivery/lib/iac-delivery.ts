@@ -3,12 +3,18 @@ import * as codebuild from 'aws-cdk-lib/aws-codebuild';
 import { DeliveryProps } from "./delivery-props";
 
 export class IACDelivery extends Construct {
+  scope: Construct
+  props: DeliveryProps
   constructor(scope: Construct, id: string, props: DeliveryProps = {}) {
     super(scope, id);
+    props = {
+      ...props
+    }
+    this.props = props
   }
 
-  public delivery() {
-    new codebuild.Project(this, 'delivery', {
+  public delivery(scope: Construct = this.scope,props: DeliveryProps = this.props) {
+    new codebuild.Project(scope, 'delivery', {
       buildSpec: codebuild.BuildSpec.fromObject({
         version: '0.2',
         phases: {
