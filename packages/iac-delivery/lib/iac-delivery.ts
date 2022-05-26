@@ -8,7 +8,7 @@ export class IacDelivery extends Construct {
   }
 
   public delivery() {
-    new codebuild.Project(this, 'MyProject', {
+    new codebuild.Project(this, 'delivery', {
       buildSpec: codebuild.BuildSpec.fromObject({
         version: '0.2',
         phases: {
