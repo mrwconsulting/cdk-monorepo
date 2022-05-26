@@ -5,9 +5,7 @@
   "license": "ISC",
   "private": true,
   "workspaces": [
-    "packages/cdk/*",
-    "packages/lambda/*",
-    "packages/examples/*"
+    "packages/*"
   ],
   "commitlint": {
     "extends": [
