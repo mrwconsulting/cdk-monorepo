@@ -1,6 +1,6 @@
 import * as cdk from "aws-cdk-lib";
 import { Template } from "aws-cdk-lib/assertions";
-import { IacDelivery } from "../lib/iac-delivery";
+import { IACDelivery } from "../lib/iac-delivery";
 
 describe("IACDelivery", () => {
   test("IACDelivery Test Stack", () => {
@@ -11,7 +11,7 @@ describe("IACDelivery", () => {
         region: process.env.CDK_DEFAULT_REGION,
       },
     });
-    new IacDelivery(stack, "IacDelivery");
+    new IACDelivery(stack, "IACDelivery");
     const template = Template.fromStack(stack);
     expect(template).toMatchSnapshot();
   });
