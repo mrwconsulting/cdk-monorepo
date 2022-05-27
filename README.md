@@ -24,3 +24,6 @@ This project utilizes the following plugins:
 * [Husky](https://typicode.github.io/husky/#/): enables native git hooks tools to standardize git commits.
 * [Eslint](https://eslint.org/docs/user-guide/getting-started): configure rules and syntax validation that fit the needs of your project. 
 * [Prettier](https://prettier.io/docs/en/index.html): an opinionated code formatter.
+* [Commitlint](https://commitlint.js.org/#/): checks if your commit messages meet the conventional commit format.
+* [Commitizen](https://commitizen-tools.github.io/commitizen/changelog/): will generate a changelog following the committing rules established.
+* [AWS/JSII](https://aws.github.io/jsii/): enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase.
