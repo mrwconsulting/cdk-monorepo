@@ -1,6 +1,6 @@
-# Monorepo Starter Proejct
+# CDK Monorepo Starter Project
 
-### Monorepo
+### CDK Monorepo
 A monorepo (short for monolithic repository) is a software development strategy where code for many applications, which may or may not be mutually dependent, is stored in the same version-controlled repository.
 
 Some advantages of the monorepo approach are:
@@ -13,7 +13,7 @@ Atomic commits across multiple applications — you can refactor multiple applic
 - Single source of truth — there’s only one version of each dependency.
 Unified CI/CD — a standardized process can build and deploy every application in the repository.
 
-This project serves as a template to easily get started on the monorepo journey.
+This project serves as a template to easily get started on the CDK monorepo journey.
 
 ### What does a Lerna repo look like?
 
