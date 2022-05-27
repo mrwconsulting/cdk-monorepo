@@ -45,7 +45,7 @@ Execute following commands:
 2. npm install --global lerna
 3. git clone https://github.com/mrwconsulting/monorepo.git
 4. cd monorepo
-5. yarn (this will download all supporting packages)
+5. yarn install -f (this will download all supporting dependencies)
 
 ## Useful Scripts
 #### *Usage* [from parent folder]: yarn ==<script name\>== 
