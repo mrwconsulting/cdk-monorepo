@@ -1,29 +1,52 @@
 {
   "name": "iac-delivery",
   "version": "0.0.0",
+  "description": "IACDelivery",
+  "author": {
+    "name": "MRWConsulting"
+  },
   "license": "ISC",
   "bin": {
     "iac-delivery": "bin/iac-delivery.js"
   },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "jsii",
     "clean": "rimraf */*.js cdk.out node_modules",
     "deploy": "cdk deploy",
+    "package": "jsii-pacmak",
     "synth": "cdk synth"
   },
-  "devDependencies": {
-    "@types/jest": "27.5.1",
-    "@types/node": "10.17.27",
-    "@types/prettier": "2.6.0",
-    "jest": "27.5.1",
-    "ts-jest": "27.1.4",
-    "aws-cdk": "2.25.0",
-    "ts-node": "10.7.0",
-    "typescript": "3.9.7"
-  },
-  "dependencies": {
-    "aws-cdk-lib": "2.25.0",
-    "constructs": "10.1.16",
-    "source-map-support": "0.5.21"
+  "jsii": {
+    "outdir": "dist",
+    "targets": {
+      "python": {
+        "distName": "aws-jsiisamples.jsii-code-samples",
+        "module": "aws_jsiisamples.jsii_code_samples"
+      },
+      "java": {
+        "package": "software.aws.jsiisamples.jsii",
+        "maven": {
+          "groupId": "software.aws.jsiisamples.jsii",
+          "artifactId": "jsii-code-samples"
+        }
+      }
+    },
+    "devDependencies": {
+      "@types/jest": "27.5.1",
+      "@types/node": "10.17.27",
+      "@types/prettier": "2.6.0",
+      "jest": "27.5.1",
+      "ts-jest": "27.1.4",
+      "aws-cdk": "2.25.0",
+      "ts-node": "10.7.0",
+      "typescript": "3.9.7"
+    },
+    "peerDependencies": {
+      "aws-cdk-lib": "2.25.0",
+      "constructs": "10.1.16",
+      "source-map-support": "0.5.21"
+    }
   }
 }
