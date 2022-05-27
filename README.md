@@ -70,15 +70,15 @@ The execute the following commands in order:
     ```
     yarn cdk:build
     ```
-* run tests
+* execute tests
     ```
     yarn test
     ```    
-* generate cfn template
+* generate cloudformation template
     ```
     yarn cdk:synth
     ```        
-* deploy
+* deploy cloudformation stack
     ```
     yarn cdk:deploy
     ```    
