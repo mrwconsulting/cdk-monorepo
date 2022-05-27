@@ -40,11 +40,11 @@ Branching model for software development where developers merge every new featur
 ### Initial Setup
 
 Execute following commands.
-# npm install --global yarn
-# npm install --global lerna
-# git clone https://github.com/mrwconsulting/monorepo.git
-# cd monorepo
-# yarn (this will download all supporting packages)
+1. npm install --global yarn
+2. npm install --global lerna
+3. git clone https://github.com/mrwconsulting/monorepo.git
+4. cd monorepo
+5. yarn (this will download all supporting packages)
 
 ### Useful Scripts
 ## Usage [from parent folder]: yarn <script name> 
