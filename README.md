@@ -19,11 +19,8 @@ This project serves as a template to easily get started on the CDK monorepo jour
 
 This project utilizes the following plugins:
 
-/**
 * [Lerna](https://lerna.js.org/): tool that optimizes the workflow around managing multi-package repositories with git by providing high-level commands. It also allows you to publish packages to registry.
 * [Yarn](https://classic.yarnpkg.com/en/docs/getting-started): tool to enable workspaces that allows users to install dependencies from multiple package.json files in subfolders of a single root package.json file.
 * [Husky](https://typicode.github.io/husky/#/): enables native git hooks tools to standardize git commits.
 * [Eslint](https://eslint.org/docs/user-guide/getting-started): configure rules and syntax validation that fit the needs of your project. 
 * [Prettier](https://prettier.io/docs/en/index.html): an opinionated code formatter.
-*/
-
