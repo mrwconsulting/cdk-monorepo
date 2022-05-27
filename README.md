@@ -33,7 +33,7 @@ This project utilizes the following plugins:
 
 Branching model for software development where developers merge every new feature, bug fix, or other code change to one central branch in the version control system. Trunk-based development is a methodology for releasing new features and small changes quickly while helping to avoid lengthy bug fixes and "merge hell".
 
-![image](./trunk-based-development.png)
+![image](docs/images/trunk-based-development.png)
 
 * Commitizen plugin automates the whole package release workflow including: determining the next version number, generating changelog, and publishing the package. It analyses the commit messages, which are usually in a well known format like Conventional Commits, and then decides the next version.
 
@@ -47,11 +47,11 @@ Execute following commands:
 4. cd monorepo
 5. yarn (this will download all supporting packages)
 
-### Useful Scripts
-## Usage [from parent folder]: yarn <script name> 
-## Usage [within packages folder]: lerna <script name>
+## Useful Scripts
+#### *Usage* [from parent folder]: yarn ==<script name\>== 
+#### *Usage* [within packages folder]: lerna ==<script name\>==
 
-* [cdk:build]:
+* [cdk:build]: 
 * [cdk:deploy]:
 * [cdk:synth]:
 * [clean]:
@@ -61,5 +61,24 @@ Execute following commands:
 * [version:beta]:
 * [version:release]:
 
-Example [parent folder]: yarn cdk:build, yarn clean
-Example [packages folder]: lerna build, lerna clean
+The execute the following commands in order:
+* resolve dependencies
+   ``` 
+    yarn install -f
+    ```
+* build project
+    ```
+    yarn cdk:build
+    ```
+* run tests
+    ```
+    yarn test
+    ```    
+* generate cfn template
+    ```
+    yarn cdk:synth
+    ```        
+* deploy
+    ```
+    yarn cdk:deploy
+    ```    
