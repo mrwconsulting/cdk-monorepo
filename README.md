@@ -28,3 +28,7 @@ This project utilizes the following plugins:
 * [Commitizen](https://commitizen-tools.github.io/commitizen/changelog/): will generate a changelog following the committing rules established.
 * [AWS/JSII](https://aws.github.io/jsii/): enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase.
 * [Webpack](https://webpack.js.org/): module bundler for JavaScript.
+
+### Trunk-based Development (TBD)
+
+Branching model for software development where developers merge every new feature, bug fix, or other code change to one central branch in the version control system.
