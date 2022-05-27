@@ -27,3 +27,4 @@ This project utilizes the following plugins:
 * [Commitlint](https://commitlint.js.org/#/): checks if your commit messages meet the conventional commit format.
 * [Commitizen](https://commitizen-tools.github.io/commitizen/changelog/): will generate a changelog following the committing rules established.
 * [AWS/JSII](https://aws.github.io/jsii/): enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase.
+* [Webpack](https://webpack.js.org/): module bundler for JavaScript.
