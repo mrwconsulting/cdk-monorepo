@@ -37,7 +37,10 @@ Branching model for software development where developers merge every new featur
 
 * Commitizen plugin automates the whole package release workflow including: determining the next version number, generating changelog, and publishing the package. It analyses the commit messages, which are usually in a well known format like Conventional Commits, and then decides the next version.
 
-### Initial Setup - execute following commands.
+### Initial Setup
+
+Execute following commands:
+
 1. npm install --global yarn
 2. npm install --global lerna
 3. git clone https://github.com/mrwconsulting/monorepo.git
