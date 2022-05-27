@@ -31,4 +31,6 @@ This project utilizes the following plugins:
 
 ### Trunk-based Development (TBD)
 
-Branching model for software development where developers merge every new feature, bug fix, or other code change to one central branch in the version control system.
+Branching model for software development where developers merge every new feature, bug fix, or other code change to one central branch in the version control system. Trunk-based development is a methodology for releasing new features and small changes quickly while helping to avoid lengthy bug fixes and "merge hell".
+
+![image](./trunk-based-development.png)
