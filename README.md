@@ -15,50 +15,15 @@ Unified CI/CD — a standardized process can build and deploy every application 
 
 This project serves as a template to easily get started on the CDK monorepo journey.
 
-### What does a Lerna repo look like?
-
-File structure that looks like this:
-
-```
-my-lerna-monorepo/
-  package.json
-  packages/
-    package-1/
-      package.json
-    package-2/
-      package.json
-```
-
-# Plugins
+### Plugins
 
 This project utilizes the following plugins:
-***
 
-## Lerna
-[Lerna](https://lerna.js.org/): a tool that optimizes the workflow around managing multi-package repositories
+/**
+* [Lerna](https://lerna.js.org/): tool that optimizes the workflow around managing multi-package repositories with git by providing high-level commands. It also allows you to publish packages to registry.
+* [Yarn](https://classic.yarnpkg.com/en/docs/getting-started): tool to enable workspaces that allows users to install dependencies from multiple package.json files in subfolders of a single root package.json file.
+* [Husky](https://typicode.github.io/husky/#/): enables native git hooks tools to standardize git commits.
+* [Eslint](https://eslint.org/docs/user-guide/getting-started): configure rules and syntax validation that fit the needs of your project. 
+* [Prettier](https://prettier.io/docs/en/index.html): an opinionated code formatter.
+*/
 
-
-## Yarn 
-[Yarn](https://classic.yarnpkg.com/en/docs/getting-started): a package manager
-
-Install
-```
-npm install --global yarn
-```
-Checked install by running
-```
-yarn --version
-```
-[additional information on usage](https://classic.yarnpkg.com/en/docs/usage)
-## Husky
-[Husky](https://typicode.github.io/husky/#/) a modern native git hooks tools to standardize git commits
-
-## ESLint
-[Eslint](https://eslint.org/docs/user-guide/getting-started): configure rules and syntax validation that fit the needs of your project. 
-
-## Prettier
-[Prettier](https://prettier.io/docs/en/index.html): an 
-opinionated code formatter
-
-
-***
