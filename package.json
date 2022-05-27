@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "cdk monorepo skeleton",
   "author": {
-    "name": "MRWConsulting"
+    "name": "MRWConsulting",
+    "email": "mark@mrwconsulting.tech",
+    "organization": false
   },
   "license": "ISC",
   "private": true,
