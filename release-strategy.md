@@ -12,18 +12,18 @@ Here is a detailed overview of the release strategy for the design system. The r
 
 ## Versioning
 In order to provide stable, predictable releases, the design system aims follow strict semantic versioning (Semver 2.0).
-![alt text](doc/images/semantic_versioning.png)
+![alt text](docs/images/semantic_versioning.png)
 semantic versioning
 
 We ensure semantic versioning is followed through the use of semantic commits. Simply put, semantic commits are a way to describe the scope of the change in your commit description in a semantic way. These commits are used to not only determine the version number for the next release, but also the packages affected and a description of the change.
 
 semantic commits
-![alt text](doc/images/semantic_commits.png)
+![alt text](docs/images/semantic_commits.png)
 With these conventions, we can have confidence in the stability of our releases and build powerful release automation around it (see below).
 
 ## Release Process
 In order to allow for continuous development but ensure regular, stable releases we follow the Git Flow branching process. At first glance, this process can look complicated, but it can be easily broken down like so:
-![alt text](doc/images/gitflow.png)
+![alt text](docs/images/gitflow.png)
 gitflow
 
 Simply put, we have two parallel evergreen branches: master and develop. The master branch tracks our stable production code, whereas the develop branch tracks our most recently active work. We open feature branches off develop and regularly squash merge them back into develop as they get completed. If bugs are found after we merge, we can easily fix them before releasing them into production simply by opening and merging another branch off develop. To create a formal release, we merge commit (not squash) develop branch back into master, putting the two branches back in sync with each other.
@@ -37,7 +37,7 @@ Releases: Sometimes there are particular releases we want to spend a longer time
 
 ## Release Cadence
 
-![release cadence](doc/images/release_cadence.png)
+![release cadence](docs/images/release_cadence.png)
 
 When building a library, the release cadence is somewhat of an art. Ideally, we release as often as features are ready, but not too often such that our library is always changing and difficult to actively maintain. Some libraries opt for continuous releases, while others prefer standard release cadences. In our design system, we've chosen a hybrid approach where we perform continuous releases for our release candidates, but a more periodic cadence for stable releases. This seems to offer the best of both patterns.
 
