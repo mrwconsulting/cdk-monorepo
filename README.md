@@ -37,6 +37,8 @@ Branching model for software development where developers merge every new featur
 
 * Commitizen plugin automates the whole package release workflow including: determining the next version number, generating changelog, and publishing the package. It analyses the commit messages, which are usually in a well known format like Conventional Commits, and then decides the next version.
 
+# Getting Started
+
 ### Initial Setup - execute following commands.
 1. npm install --global yarn
 2. npm install --global lerna
@@ -58,9 +60,7 @@ Branching model for software development where developers merge every new featur
 * [version:beta]:
 * [version:release]:
 
-# Getting Started
-
-The execute the following commands in order
+The execute the following commands in order:
 * resolve dependencies
    ``` 
     yarn install -f
