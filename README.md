@@ -15,7 +15,7 @@ Unified CI/CD — a standardized process can build and deploy every application 
 
 This project serves as a template to easily get started on the CDK monorepo journey.
 
-### Plugins
+### Plugins 
 
 This project utilizes the following plugins:
 
