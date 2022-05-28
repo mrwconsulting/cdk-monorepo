@@ -47,7 +47,7 @@ Execute following commands:
 4. cd monorepo
 5. yarn install -f (this will download all supporting dependencies)
 
-## Useful Scripts
+### Useful Scripts
 
 * resolve dependencies
    ``` 
