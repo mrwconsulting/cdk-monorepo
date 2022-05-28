@@ -60,6 +60,10 @@ Execute following commands:
 
 ### Usage Examples
 
+* execute commit message with linting 
+   ``` 
+    yarn commit
+    ```
 * resolve dependencies
    ``` 
     yarn install -f
