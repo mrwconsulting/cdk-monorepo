@@ -19,15 +19,15 @@ This project serves as a template to easily get started on the CDK monorepo jour
 
 This project utilizes the following plugins:
 
-* [Yarn](https://classic.yarnpkg.com/en/docs/getting-started): tool to enable workspaces that allows users to install dependencies from multiple package.json files in subfolders of a single root package.json file.
-* [Lerna](https://lerna.js.org/): tool that optimizes the workflow around managing multi-package repositories with git by providing high-level commands. Lerna with Yarn Workspaces make it possible to develop across multiple components without having to publish them to a registry.
-* [Husky](https://typicode.github.io/husky/#/): enables native git hooks tools to standardize git commits.
-* [Eslint](https://eslint.org/docs/user-guide/getting-started): configure rules and syntax validation that fit the needs of your project. 
-* [Prettier](https://prettier.io/docs/en/index.html): an opinionated code formatter.
-* [Commitlint](https://commitlint.js.org/#/): checks if your commit messages meet the conventional commit format.
-* [Commitizen](https://commitizen-tools.github.io/commitizen/changelog/): will generate a changelog following the committing rules established.
-* [AWS/JSII](https://aws.github.io/jsii/): enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase.
-* [Webpack](https://webpack.js.org/): module bundler for JavaScript.
+* [yarn](https://classic.yarnpkg.com/en/docs/getting-started): tool to enable workspaces that allows users to install dependencies from multiple package.json files in subfolders of a single root package.json file.
+* [lerna](https://lerna.js.org/): tool that optimizes the workflow around managing multi-package repositories with git by providing high-level commands. Lerna with Yarn Workspaces make it possible to develop across multiple components without having to publish them to a registry.
+* [husky](https://typicode.github.io/husky/#/): enables native git hooks tools to standardize git commits.
+* [eslint](https://eslint.org/docs/user-guide/getting-started): configure rules and syntax validation that fit the needs of your project. 
+* [prettier](https://prettier.io/docs/en/index.html): an opinionated code formatter.
+* [commitlint](https://commitlint.js.org/#/): checks if your commit messages meet the conventional commit format.
+* [commitizen](https://commitizen-tools.github.io/commitizen/changelog/): will generate a changelog following the committing rules established.
+* [aws\jsii](https://aws.github.io/jsii/): enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase.
+* [webpack](https://webpack.js.org/): module bundler for JavaScript.
 
 ### Trunk-based Development (TBD)
 
