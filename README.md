@@ -48,20 +48,7 @@ Execute following commands:
 5. yarn install -f (this will download all supporting dependencies)
 
 ## Useful Scripts
-#### *Usage* [from parent folder]: yarn ==<script name\>== 
-#### *Usage* [within packages folder]: lerna ==<script name\>==
 
-* [cdk:build]: 
-* [cdk:deploy]:
-* [cdk:synth]:
-* [clean]:
-* [lint]:
-* [lint:fix]:
-* [test]:
-* [version:beta]:
-* [version:release]:
-
-The execute the following commands in order:
 * resolve dependencies
    ``` 
     yarn install -f
