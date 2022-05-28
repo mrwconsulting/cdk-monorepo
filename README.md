@@ -33,11 +33,11 @@ This project utilizes the following plugins:
 
 Branching model for software development where developers merge every new feature, bug fix, or other code change to one central branch in the version control system. Trunk-based development is a methodology for releasing new features and small changes quickly while helping to avoid lengthy bug fixes and "merge hell".
 
-![image](docs/images/trunk-based-development.png)
+![image](images/trunk-based-development.png)
 
 * Commitizen plugin automates the whole package release workflow including: determining the next version number, generating changelog, and publishing the package. It analyses the commit messages, which are usually in a well known format like Conventional Commits, and then decides the next version.
 
-![image](docs/images/semantic_versioning.png)
+![image](images/semantic_versioning.png)
 
 * chore - changes that aren't user-facing.
 * docs - changes that affect the documentation.
