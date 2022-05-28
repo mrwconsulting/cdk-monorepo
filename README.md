@@ -57,7 +57,7 @@ Execute following commands:
     ```
     yarn cdk:build
     ```
-* execute tests
+* execute unit testing
     ```
     yarn test
     ```    
