@@ -39,15 +39,15 @@ Branching model for software development where developers merge every new featur
 
 ![image](docs/images/semantic_versioning.png)
 
-* [chore]: changes that aren't user-facing.
-* [docs]: changes that affect the documentation.
-* [feat]: changes that introduce a new feature.
-* [fix]: changes that patch a bug.
-* [perf]: changes which improve performance.
-* [refactor]: changes which neither fix a bug nor add a feature.
-* [revert]: changes that revert a previous commit.
-* [style]: changes that don't affect code logic, such as white-spaces, formatting, missing semi-colons.
-* [test]: changes that add missing tests or correct existing tests.
+* chore - changes that aren't user-facing.
+* docs - changes that affect the documentation.
+* feat - changes that introduce a new feature.
+* fix - changes that patch a bug.
+* perf - changes which improve performance.
+* refactor - changes which neither fix a bug nor add a feature.
+* revert - changes that revert a previous commit.
+* style - changes that don't affect code logic, such as white-spaces, formatting, missing semi-colons.
+* test - changes that add missing tests or correct existing tests.
 ### Initial Setup
 
 Execute following commands:
