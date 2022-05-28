@@ -38,6 +38,16 @@ Branching model for software development where developers merge every new featur
 * Commitizen plugin automates the whole package release workflow including: determining the next version number, generating changelog, and publishing the package. It analyses the commit messages, which are usually in a well known format like Conventional Commits, and then decides the next version.
 
 ![image](docs/images/semantic_versioning.png)
+
+* [chore]: changes that aren't user-facing.
+* [docs]: changes that affect the documentation.
+* [feat]: changes that introduce a new feature.
+* [fix]: changes that patch a bug.
+* [perf]: changes which improve performance.
+* [refactor]: changes which neither fix a bug nor add a feature.
+* [revert]: changes that revert a previous commit.
+* [style]: changes that don't affect code logic, such as white-spaces, formatting, missing semi-colons.
+* [test]: changes that add missing tests or correct existing tests.
 ### Initial Setup
 
 Execute following commands:
@@ -48,7 +58,7 @@ Execute following commands:
 4. cd monorepo
 5. yarn install -f (this will download all supporting dependencies)
 
-### Useful Commands
+### Usage Examples
 
 * resolve dependencies
    ``` 

@@ -1,8 +1,9 @@
 *.lock
-node_modules
 *.log
 *.lock
 *-lock.json
+.DS_Store
+node_modules
 packages/**/cdk.out
 packages/**/node_modules
 packages/**/*.lock
