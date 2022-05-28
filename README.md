@@ -60,9 +60,9 @@ Execute following commands:
 
 ### Usage Examples
 
-* execute commit message with linting 
+* execute git commit with lint formatting
    ``` 
-    yarn commit
+    git commit -m "chore: your comments"
     ```
 * resolve dependencies
    ``` 
