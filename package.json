@@ -24,7 +24,7 @@
     "cdk:build": "lerna run build --concurrency 1 --include-dependencies --stream",
     "cdk:deploy": "lerna run deploy --stream",
     "cdk:synth": "lerna run synth --stream",
-    "clean": "lerna run clean --stream",
+    "clean": "lerna run clean --stream && rimraf *.log *-lock.* *.lock",
     "commit": "cz",
     "lint": "eslint . --config config/lint/.eslintrc.js --no-error-on-unmatched-pattern --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix && npm run -- prettier",
