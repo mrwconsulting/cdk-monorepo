@@ -23,6 +23,7 @@ This project utilizes the following plugins:
 * [lerna](https://lerna.js.org/): tool that optimizes the workflow around managing multi-package repositories with git by providing high-level commands. Lerna with Yarn Workspaces make it possible to develop across multiple components without having to publish them to a registry.
 * [husky](https://typicode.github.io/husky/#/): enables native git hooks tools to standardize git commits.
 * [eslint](https://eslint.org/docs/user-guide/getting-started): configure rules and syntax validation that fit the needs of your project. 
+* [lint-staged](https://github.com/okonet/lint-staged#readme): linter against staged git files.
 * [prettier](https://prettier.io/docs/en/index.html): an opinionated code formatter.
 * [commitlint](https://commitlint.js.org/#/): checks if your commit messages meet the conventional commit format.
 * [commitizen](https://commitizen-tools.github.io/commitizen/changelog/): will generate a changelog following the committing rules established.
