@@ -18,7 +18,7 @@
     }
   },
   "lint-staged": {
-    "*.+(json|ts|tsx)": "lint:fix"
+    "*.+(json|ts|tsx)": "yarn lint:fix"
   },
   "scripts": {
     "cdk:build": "lerna run build --concurrency 1 --include-dependencies --stream",
