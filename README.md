@@ -1,4 +1,4 @@
-# CDK Monorepo Starter Project
+# CDK Monorepo Starter Project 
 
 ### CDK Monorepo
 A monorepo (short for monolithic repository) is a software development strategy where code for many applications, which may or may not be mutually dependent, is stored in the same version-controlled repository.
