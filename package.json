@@ -22,11 +22,14 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "lint-staged": {
+    "*.+(json|ts|tsx)": "yarn lint:fix"
+  },
   "scripts": {
     "cdk:build": "lerna run build --concurrency 1 --include-dependencies --stream",
     "cdk:deploy": "lerna run deploy --stream",
     "cdk:synth": "lerna run synth --stream",
-    "clean": "lerna run clean --stream",
+    "clean": "lerna run clean --stream && rimraf *.log *-lock.* *.lock",
     "commit": "cz",
     "lint": "eslint . --config config/lint/.eslintrc.js --no-error-on-unmatched-pattern --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix && npm run -- prettier",
@@ -34,7 +37,8 @@
     "test": "yarn jest --config config/jest/jest.config.js",
     "version:beta": "lerna version --yes --preid beta --no-changelog --conventional-commits --conventional-prerelease",
     "version:release": "lerna version --yes --conventional-commits --conventional-graduate",
-    "postversion": "yarn cdk:build"
+    "postversion": "yarn cdk:build",
+    "pre-commit": "lint-staged"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.0",
@@ -55,6 +59,7 @@
     "jsii": "1.59.0",
     "jsii-pacmak": "1.59.0",
     "lerna": "4.0.0",
+    "lint-staged": "12.4.2",
     "prettier": "2.6.2",
     "ts-jest": "27.1.4",
     "ts-node": "10.7.0",
