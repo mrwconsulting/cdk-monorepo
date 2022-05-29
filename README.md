@@ -1,5 +1,4 @@
-# CDK Monorepo Starter Project 
-
+# CDK Monorepo Starter Project
 ### CDK Monorepo
 A monorepo (short for monolithic repository) is a software development strategy where code for many applications, which may or may not be mutually dependent, is stored in the same version-controlled repository.
 
@@ -36,9 +35,9 @@ Branching model for software development where developers merge every new featur
 
 ![image](images/trunk-based-development.png)
 
-# Versioning
+### Versioning
 
-* Commitizen plugin automates the whole package release workflow including: determining the next version number, generating changelog, and publishing the package. It analyses the commit messages, which are usually in a well known format like Conventional Commits, and then decides the next version.
+Commitizen plugin automates the whole package release workflow including: determining the next version number, generating changelog, and publishing the package. It analyses the commit messages, which are usually in a well known format like Conventional Commits, and then decides the next version.
 
 ![image](images/semantic_versioning.png)
 
