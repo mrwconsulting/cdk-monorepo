@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "registry": "https://github.com/mrwconsulting/cdk-monorepo.git"
+    "url": "https://github.com/mrwconsulting/cdk-monorepo.git"
   },
   "scripts": {
     "build": "jsii",
