@@ -8,3 +8,4 @@ packages/**/cdk.out
 packages/**/node_modules
 packages/**/*.lock
 packages/**/*-lock.json
+packages/**/tsconfig.json

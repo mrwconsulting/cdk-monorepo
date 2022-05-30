@@ -49,7 +49,7 @@
     "@typescript-eslint/parser": "5.26.0",
     "aws-cdk-lib": "2.25.0",
     "commitizen": "4.2.4",
-    "constructs": "10.1.16",
+    "constructs": "10.1.22",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.16.0",
     "eslint-config-prettier": "8.5.0",
@@ -61,16 +61,11 @@
     "lerna": "4.0.0",
     "lint-staged": "12.4.2",
     "prettier": "2.6.2",
-    "tsc": "2.0.4",
-    "ts-node": "10.7.0",
     "ts-jest": "27.1.4",
+    "ts-node": "10.7.0",
+    "tsc": "2.0.4",
     "typescript": "3.9.7",
     "webpack": "5.72.1",
     "webpack-cli": "4.9.2"
-  },
-  "peerDependencies": {
-    "aws-cdk-lib": "2.25.0",
-    "constructs": "10.1.16",
-    "source-map-support": "^0.5.21"
   }
 }
