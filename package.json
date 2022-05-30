@@ -1,7 +1,7 @@
 {
-  "name": "monorepo",
+  "name": "cdk-monorepo",
   "version": "0.0.0",
-  "description": "monorepo skeleton",
+  "description": "cdk-xmonorepo skeleton",
   "license": "ISC",
   "private": true,
   "workspaces": [
