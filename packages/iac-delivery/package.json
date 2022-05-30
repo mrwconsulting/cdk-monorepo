@@ -29,6 +29,7 @@
   },
   "jsii": {
     "outdir": "dist",
+    "projectReferences": true,
     "targets": {
       "python": {
         "distName": "mrwconsulting.iac-delivery",
