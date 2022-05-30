@@ -1,5 +1,5 @@
 {
-  "name": "cdk-monorepo",
+  "name": "@mrwconsulting/cdk-monorepo",
   "version": "0.0.0",
   "description": "cdk monorepo skeleton",
   "license": "ISC",
