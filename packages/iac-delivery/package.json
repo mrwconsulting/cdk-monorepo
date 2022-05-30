@@ -40,5 +40,9 @@
         ]
       }
     }
+  },
+  "devDependencies": {
+    "jsii": "1.59.0",
+    "jsii-pacmak": "1.59.0"
   }
 }
