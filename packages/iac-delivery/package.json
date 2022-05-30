@@ -8,11 +8,15 @@
     "organization": false
   },
   "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "bin": {
     "iac-delivery": "bin/iac-delivery.js"
   },
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "registry": "https://github.com/mrwconsulting/cdk-monorepo.git"
+  },
   "scripts": {
     "build": "jsii",
     "clean": "rimraf */*.js cdk.out node_modules",

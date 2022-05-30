@@ -56,8 +56,8 @@ Execute following commands:
 
 1. npm install --global yarn
 2. npm install --global lerna
-3. git clone https://github.com/mrwconsulting/monorepo.git
-4. cd monorepo
+3. git clone https://github.com/mrwconsulting/cdk-monorepo.git
+4. cd cdk-monorepo
 5. yarn install -f (this will download all supporting dependencies)
 
 ### Usage Examples
