@@ -28,15 +28,12 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "aws-jsiisamples.jsii-code-samples",
-        "module": "aws_jsiisamples.jsii_code_samples"
-      },
-      "java": {
-        "package": "software.aws.jsiisamples.jsii",
-        "maven": {
-          "groupId": "software.aws.jsiisamples.jsii",
-          "artifactId": "jsii-code-samples"
-        }
+        "distName": "mrwconsulting.iac-delivery",
+        "module": "mrwconsulting.iac_delivery",
+        "classifiers": [
+          "Framework :: AWS CDK",
+          "Framework :: AWS CDK :: 2"
+        ]
       }
     },
     "devDependencies": {
