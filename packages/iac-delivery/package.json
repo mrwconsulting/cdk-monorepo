@@ -17,6 +17,9 @@
     "type": "git",
     "url": "https://github.com/mrwconsulting/cdk-monorepo.git"
   },
+  "publishConfig": {
+    "registry": "https://github.com/mrwconsulting"
+  },
   "scripts": {
     "build": "jsii",
     "clean": "rimraf */*.js cdk.out node_modules",
