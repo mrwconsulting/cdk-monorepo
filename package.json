@@ -10,7 +10,8 @@
     "organization": false
   },
   "workspaces": [
-    "packages/*"
+    "packages/core/*",
+    "packages/patterns/*"
   ],
   "commitlint": {
     "extends": [
