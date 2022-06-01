@@ -7,7 +7,8 @@
   "useWorkspaces": true,
   "packages": [
     "packages/core/*",
-    "packages/patterns/*"
+    "packages/patterns/*",
+    "packages/examples/*"
   ],
   "command": {
     "version": {

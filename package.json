@@ -11,7 +11,8 @@
   },
   "workspaces": [
     "packages/core/*",
-    "packages/patterns/*"
+    "packages/patterns/*",
+    "packages/examples/*"
   ],
   "commitlint": {
     "extends": [
@@ -36,6 +37,7 @@
     "lint:fix": "npm run lint -- --fix && npm run -- prettier",
     "prettier": "prettier --config config/prettier/.prettierrc --write .",
     "test": "yarn jest --config config/jest/jest.config.js",
+    "test:passWithNoTests": "yarn test --passWithNoTests",
     "version:beta": "lerna version --yes --preid beta --no-changelog --conventional-commits --conventional-prerelease",
     "version:release": "lerna version --yes --conventional-commits --conventional-graduate",
     "postversion": "yarn cdk:build",
@@ -44,13 +46,13 @@
   "devDependencies": {
     "@commitlint/cli": "17.0.0",
     "@commitlint/config-conventional": "17.0.0",
-    "@types/jest": "27.5.1",
+    "@types/jest": "^27.5.1",
     "@types/node": "10.17.27",
     "@typescript-eslint/eslint-plugin": "5.26.0",
     "@typescript-eslint/parser": "5.26.0",
     "aws-cdk-lib": "2.25.0",
     "commitizen": "4.2.4",
-    "constructs": "10.1.22",
+    "constructs": "10.1.24",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.16.0",
     "eslint-config-prettier": "8.5.0",
