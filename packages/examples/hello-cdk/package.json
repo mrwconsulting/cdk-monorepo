@@ -1,5 +1,5 @@
 {
-  "name": "hello-cdk",
+  "name": "@mrwconsulting/hello-cdk",
   "version": "0.0.0",
   "description": "First AWS CDK App",
   "author": {
@@ -18,7 +18,6 @@
     "url": "https://github.com/mrwconsulting/cdk-monorepo.git"
   },
   "publishConfig": {
-    "access": "public",
     "registry": "https://github.com/mrwconsulting"
   },
   "scripts": {
@@ -32,6 +31,8 @@
     "@types/node": "10.17.27",
     "@types/prettier": "2.6.0",
     "jest": "27.5.1",
+    "jsii": "1.59.0",
+    "jsii-pacmak": "1.59.0",
     "ts-jest": "27.1.4",
     "aws-cdk": "2.25.0",
     "ts-node": "10.7.0",
