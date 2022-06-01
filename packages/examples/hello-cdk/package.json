@@ -18,6 +18,7 @@
     "url": "https://github.com/mrwconsulting/cdk-monorepo.git"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://github.com/mrwconsulting"
   },
   "scripts": {
