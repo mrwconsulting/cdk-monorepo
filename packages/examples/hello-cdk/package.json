@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "jsii",
-    "clean": "rimraf .jsii tsconfig.json */*.js cdk.out node_modules",
+    "clean": "rimraf .jsii tsconfig.json tsconfig.tsbuildinfo */*.map */*.js cdk.out node_modules",
     "deploy": "cdk deploy",
     "package": "jsii-pacmak",
     "synth": "cdk synth"
