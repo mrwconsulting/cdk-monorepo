@@ -9,5 +9,6 @@ export class HelloCdkStack extends Stack {
     const queue = new sqs.Queue(this, 'HelloCdkQueue', {
       visibilityTimeout: cdk.Duration.seconds(300),
     })
+    console.log("queue name: " + queue.queueName)
   }
 }

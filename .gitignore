@@ -2,11 +2,13 @@
 *.log
 *.lock
 *-lock.json
-.DS_Store
 .jsii
+.DS_Store
 node_modules
 packages/**/cdk.out
 packages/**/node_modules
 packages/**/*.lock
 packages/**/*-lock.json
+packages/**/*.map
 packages/**/tsconfig.json
+packages/**/tsconfig.tsbuildinfo
