@@ -3,6 +3,7 @@
 *.lock
 *-lock.json
 .DS_Store
+.jsii
 node_modules
 packages/**/cdk.out
 packages/**/node_modules

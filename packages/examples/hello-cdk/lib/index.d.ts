@@ -1,1 +1,1 @@
-export * from './hello-cdk-stack';
+export * from './hello-cdk-stack'

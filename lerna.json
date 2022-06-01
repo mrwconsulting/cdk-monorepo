@@ -1,20 +1,12 @@
 {
   "version": "0.0.0",
   "npmClient": "yarn",
-  "npmClientArgs": [
-    "--no-lockfile"
-  ],
+  "npmClientArgs": ["--no-lockfile"],
   "useWorkspaces": true,
-  "packages": [
-    "packages/core/*",
-    "packages/patterns/*",
-    "packages/examples/*"
-  ],
+  "packages": ["packages/core/*", "packages/patterns/*", "packages/examples/*"],
   "command": {
     "version": {
-      "ignoreChanges": [
-        "*.md"
-      ],
+      "ignoreChanges": ["*.md"],
       "npmClient": "npm",
       "message": "chore(release): publish"
     },
